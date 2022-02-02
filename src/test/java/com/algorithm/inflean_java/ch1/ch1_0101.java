@@ -10,9 +10,10 @@ public class ch1_0101 {
         t = Character.toUpperCase(t);
 
         // 방법 1
-//        for (int i=0; i<str.length(); i++) {
-//            if (str.charAt(i) == t)  answer++;
-//        }
+        for (int i=0; i<str.length(); i++) {
+            if (str.charAt(i) == t)  answer++;
+        }
+
         // 방법 2
         for (char c : str.toCharArray()) {
             if (c == t) answer++;
