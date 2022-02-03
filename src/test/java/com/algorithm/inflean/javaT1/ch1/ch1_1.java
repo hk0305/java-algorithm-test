@@ -1,8 +1,8 @@
-package com.algorithm.inflean_java.ch1;
+package com.algorithm.inflean.javaT1.ch1;
 
 import java.util.Scanner;
 
-public class ch1_0101 {
+public class ch1_1 {
 
     public static int solution(String str, char t) {
         int answer = 0;
