@@ -10,8 +10,8 @@ public class ch1_1 {
         t = Character.toUpperCase(t);
 
         // 방법 1
-        for (int i=0; i<str.length(); i++) {
-            if (str.charAt(i) == t)  answer++;
+        for (int i = 0; i < str.length(); i++) {
+            if (str.charAt(i) == t) answer++;
         }
 
         // 방법 2
@@ -34,8 +34,8 @@ public class ch1_1 {
         String input1 = in.next().toLowerCase();
         String input2 = in.next().toLowerCase();
         int totalCnt = 0;
-        for (int i=0; i<input1.length(); i++) {
-            String word = input1.substring(i, i+1);
+        for (int i = 0; i < input1.length(); i++) {
+            String word = input1.substring(i, i + 1);
             if (word.equals(input2)) {
                 totalCnt++;
             }

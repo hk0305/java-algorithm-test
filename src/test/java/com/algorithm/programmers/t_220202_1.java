@@ -21,7 +21,7 @@ public class t_220202_1 {
             hm.put(player, hm.get(player) - 1);
 
         for (String key : hm.keySet()) {
-            if (hm.get(key) != 0){
+            if (hm.get(key) != 0) {
                 answer = key;
             }
         }
