@@ -4,7 +4,7 @@ import org.springframework.util.StopWatch;
 
 import java.util.Arrays;
 
-public class One_Week_220219_number {
+public class One_Week_220219_numberGame {
 
     public static void main(String[] args) {
 

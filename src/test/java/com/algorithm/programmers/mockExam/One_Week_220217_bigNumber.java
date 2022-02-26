@@ -2,7 +2,7 @@ package com.algorithm.programmers.mockExam;
 
 import java.util.*;
 
-public class One_Week_220217 {
+public class One_Week_220217_bigNumber {
 
     public static Set<Long> setList = new HashSet<>();
 
