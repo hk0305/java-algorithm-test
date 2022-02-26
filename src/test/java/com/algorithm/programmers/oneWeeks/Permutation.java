@@ -1,4 +1,4 @@
-package com.algorithm.programmers.mockExam;
+package com.algorithm.programmers.oneWeeks;
 
 public class Permutation {
     public static void main(String[] args) {

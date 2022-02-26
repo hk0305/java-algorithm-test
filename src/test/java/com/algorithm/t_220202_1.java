@@ -1,4 +1,4 @@
-package com.algorithm.programmers;
+package com.algorithm;
 
 import java.util.HashMap;
 

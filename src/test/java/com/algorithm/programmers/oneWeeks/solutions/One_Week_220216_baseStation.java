@@ -1,4 +1,4 @@
-package com.algorithm.programmers.solutions;
+package com.algorithm.programmers.oneWeeks.solutions;
 
 public class One_Week_220216_baseStation {
 

@@ -1,4 +1,4 @@
-package com.algorithm.programmers.solutions;
+package com.algorithm.programmers.oneWeeks.solutions;
 
 import org.springframework.util.StopWatch;
 

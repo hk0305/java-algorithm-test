@@ -1,14 +1,12 @@
-package com.algorithm.programmers.solutions;
+package com.algorithm.programmers.twoWeeks;
 
 import org.springframework.util.StopWatch;
 
-import java.util.Arrays;
-
-public class One_Week_220219_numberGame {
+public class Q1_220226_MidTest {
 
     public static void main(String[] args) {
 
-        StopWatch stopWatch = new StopWatch("Onw_Week_220219_number");
+        StopWatch stopWatch = new StopWatch("Middle Test");
         stopWatch.start("---------- T E S T ----------");
 
         try {
@@ -23,19 +21,7 @@ public class One_Week_220219_numberGame {
     }
 
     public static int solution(int[] A, int[] B) {
-        Arrays.sort(A);
-        Arrays.sort(B);
-        int index = B.length - 1;
-
-        int answer = 0;
-        for (int k = A.length - 1; k >= 0; k--) {
-            if (A[k] < B[index]) {
-                index--;
-                answer++;
-            }
-        }
-
-        return answer;
+        return 0;
     }
 
 }

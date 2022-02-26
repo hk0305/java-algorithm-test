@@ -1,10 +1,10 @@
-package com.algorithm.programmers.mockExam;
+package com.algorithm.programmers.oneWeeks;
 
 import org.springframework.util.StopWatch;
 
 import java.util.Arrays;
 
-public class One_Week_220219_budget {
+public class Q3_220219_budget {
 
     public static void main(String[] args) {
 

@@ -1,10 +1,10 @@
-package com.algorithm.programmers.mockExam;
+package com.algorithm.programmers.oneWeeks;
 
 import org.apache.commons.lang3.ArrayUtils;
 
 import java.util.ArrayList;
 
-public class One_Week_220216_baseStation {
+public class Q1_220216_baseStation {
 
     public static void main(String[] args) {
         System.out.println(solution(16, new int[]{9}, 2));

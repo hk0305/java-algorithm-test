@@ -1,8 +1,8 @@
-package com.algorithm.programmers.mockExam;
+package com.algorithm.programmers.oneWeeks;
 
 import java.util.*;
 
-public class One_Week_220217_bigNumber {
+public class Q2_220217_bigNumber {
 
     public static Set<Long> setList = new HashSet<>();
 
