@@ -3,6 +3,8 @@ package com.algorithm.programmers.threeWeeks;
 import org.springframework.util.StopWatch;
 
 import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Set;
 
 public class Q1_220302_disguise {
 
@@ -12,7 +14,8 @@ public class Q1_220302_disguise {
         stopWatch.start("---------- T E S T ----------");
 
         try {
-            System.out.println(Arrays.toString(solution(new String[][]{{"09:10", "lee"}}, new String[][]{{"09:00", "kim"}, {"09:05", "bae"}})));
+            System.out.println(solution(new String[][]{{"yellowhat", "headgear"}, {"bluesunglasses", "eyewear"}, {"green_turban", "headgear"}}));
+            System.out.println(solution(new String[][]{{"crowmask", "face"}, {"bluesunglasses", "face"}, {"smoky_makeup", "face"}}));
         } catch (Exception e) {
             stopWatch.stop();
             e.printStackTrace();
@@ -22,9 +25,19 @@ public class Q1_220302_disguise {
         System.out.println(stopWatch.prettyPrint());
     }
 
-    public static String[] solution(String[][] booked, String[][] unbooked) {
-        String[] answer = new String[0];
-        return answer;
+    public static int solution(String[][] clothes) {
+        int answer = 1;
+        HashMap<String, Integer> hashMap = new HashMap<>();
+
+        for (String[] clothe : clothes) {
+            hashMap.put(clothe[1], hashMap.getOrDefault(clothe[1], 0) + 1);
+        }
+
+        Set<String> keySet = hashMap.keySet();
+        for (String key : keySet)
+            answer *= hashMap.get(key) + 1;
+
+        return answer - 1;
     }
 
 }
