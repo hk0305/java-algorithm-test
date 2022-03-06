@@ -6,7 +6,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Set;
 
-public class Q1_220302_disguise {
+public class Q1_220305_disguise {
 
     public static void main(String[] args) {
 

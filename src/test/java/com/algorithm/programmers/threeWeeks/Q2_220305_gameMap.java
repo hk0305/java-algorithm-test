@@ -9,7 +9,7 @@ import java.util.Queue;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class Q1_220302_gameMap {
+public class Q2_220305_gameMap {
 
     private static int[][] wayMaps = null;
     private static int[][] noWayMaps = null;
