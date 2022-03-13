@@ -46,14 +46,14 @@ public class Q2_220305_gameMap {
     private static int n, m;   // 지도의 가로, 세로 길이
     private static int[] xCoordinate = {0, 1, 0, -1};   // 0, 동, 0, 서
     private static int[] yCoordinate = {-1, 0, 1, 0};   // 북, 0, 남, 0
-    private static boolean [][] isVisited;
+    private static boolean[][] isVisited;
 
     public int solution(int[][] maps) {
-        
+
         n = maps.length;
         m = maps[0].length;
         isVisited = new boolean[n][m];
-        
+
         return breadthFirstSearch(maps);
     }
 
@@ -87,25 +87,25 @@ public class Q2_220305_gameMap {
             Node nowNode = q.poll();
 
             // 모든 경우를 확인한 경우 종료
-            if (nowNode.x == (n-1)
-                && nowNode.y == (m-1)) {
+            if (nowNode.x == (n - 1)
+                    && nowNode.y == (m - 1)) {
                 return nowNode.cost;
             }
-            
-            for (int k=0; k<4; k++) {
+
+            for (int k = 0; k < 4; k++) {
                 int xPoint = nowNode.x + xCoordinate[k];
                 int yPoint = nowNode.y + yCoordinate[k];
 
                 if (0 <= xPoint && xPoint < n
-                    && 0 <= yPoint && yPoint < m) {
+                        && 0 <= yPoint && yPoint < m) {
                     if (maps[xPoint][yPoint] == 1 && !isVisited[xPoint][yPoint]) {
                         // 방문완료
                         isVisited[xPoint][yPoint] = true;
-                        q.offer(new Node(xPoint, yPoint, nowNode.cost+1));
+                        q.offer(new Node(xPoint, yPoint, nowNode.cost + 1));
                     }
                 }
             }
-            
+
         }
 
         return -1;
