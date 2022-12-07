@@ -1,8 +1,7 @@
-package com.algorithm.programmers.threeWeeks;
+package com.algorithm.programmers.lecture.threeWeeks;
 
 import org.springframework.util.StopWatch;
 
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Set;
 

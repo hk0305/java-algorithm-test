@@ -1,10 +1,10 @@
-package com.algorithm.programmers.oneWeeks;
+package com.algorithm.programmers.lecture.oneWeeks.solutions;
 
 import org.springframework.util.StopWatch;
 
 import java.util.Arrays;
 
-public class Q4_220219_numberGame {
+public class One_Week_220219_numberGame {
 
     public static void main(String[] args) {
 
@@ -23,30 +23,19 @@ public class Q4_220219_numberGame {
     }
 
     public static int solution(int[] A, int[] B) {
-
         Arrays.sort(A);
-        System.out.println(Arrays.toString(A));
-
         Arrays.sort(B);
-        System.out.println(Arrays.toString(B));
+        int index = B.length - 1;
 
-        // [1, 2, 4, 7] -> [1, 2, 4, 7]
-        // [1, 2, 3, 5] -> [2, 3, 5, 1]
-
-        int winnerCnt = 0;
-        int bCnt = 0;
-        int aCnt = 0;
-        for (int k=0; k<A.length; k++) {
-            if (A[aCnt] >= B[bCnt]) {
-                bCnt++;
-            } else {
-                aCnt++;
-                bCnt++;
-                winnerCnt++;
+        int answer = 0;
+        for (int k = A.length - 1; k >= 0; k--) {
+            if (A[k] < B[index]) {
+                index--;
+                answer++;
             }
         }
 
-        return winnerCnt;
+        return answer;
     }
 
 }

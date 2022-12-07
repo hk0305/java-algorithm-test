@@ -1,4 +1,4 @@
-package com.algorithm.programmers.threeWeeks;
+package com.algorithm.programmers.lecture.threeWeeks;
 
 import java.util.Stack;
 

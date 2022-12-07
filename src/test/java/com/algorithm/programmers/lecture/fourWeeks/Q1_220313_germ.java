@@ -1,4 +1,4 @@
-package com.algorithm.programmers.fourWeeks;
+package com.algorithm.programmers.lecture.fourWeeks;
 
 import org.apache.commons.lang3.ArrayUtils;
 import org.springframework.util.StopWatch;

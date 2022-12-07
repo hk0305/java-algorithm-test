@@ -1,4 +1,4 @@
-package com.algorithm.programmers.oneWeeks.solutions;
+package com.algorithm.programmers.lecture.oneWeeks.solutions;
 
 import java.util.HashSet;
 import java.util.Set;

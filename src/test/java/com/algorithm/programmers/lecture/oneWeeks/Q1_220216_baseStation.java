@@ -1,4 +1,4 @@
-package com.algorithm.programmers.oneWeeks;
+package com.algorithm.programmers.lecture.oneWeeks;
 
 import org.apache.commons.lang3.ArrayUtils;
 

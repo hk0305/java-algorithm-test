@@ -1,4 +1,4 @@
-package com.algorithm.programmers.twoWeeks;
+package com.algorithm.programmers.lecture.twoWeeks;
 
 import org.springframework.util.StopWatch;
 

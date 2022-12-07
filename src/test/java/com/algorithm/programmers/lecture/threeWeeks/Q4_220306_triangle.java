@@ -1,4 +1,4 @@
-package com.algorithm.programmers.threeWeeks;
+package com.algorithm.programmers.lecture.threeWeeks;
 
 public class Q4_220306_triangle {
 
