@@ -1,7 +1,20 @@
 package com.algorithm.ready;
 
-public class TemplateSample {
-    public static void main(String[] args) {
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.StringTokenizer;
 
+public class TemplateSample {
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer st = new StringTokenizer(br.readLine());
+        System.out.println(solution(st.nextToken()));
+    }
+
+    static String solution(String s) {
+        String answer = "";
+
+        return answer;
     }
 }
