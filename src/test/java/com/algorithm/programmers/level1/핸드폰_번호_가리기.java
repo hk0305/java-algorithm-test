@@ -18,7 +18,7 @@ public class 핸드폰_번호_가리기 {
 
     /**
      * 풀이 참고
-     * 
+     *
      * @param phone_number
      * @return
      */
