@@ -1,4 +1,4 @@
-package com.algorithm.programmers.level1;
+package com.algorithm.programmers.practice.level1;
 
 public class 핸드폰_번호_가리기 {
     public static void main(String[] args) {

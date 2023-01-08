@@ -1,4 +1,4 @@
-package com.algorithm.programmers.level1;
+package com.algorithm.programmers.practice.level1;
 
 public class 없는_숫자_더하기 {
     public static void main(String[] args) {

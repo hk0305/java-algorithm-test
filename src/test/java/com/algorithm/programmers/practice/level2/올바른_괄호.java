@@ -1,4 +1,4 @@
-package com.algorithm.programmers.level2;
+package com.algorithm.programmers.practice.level2;
 
 // TODO
 public class 올바른_괄호 {

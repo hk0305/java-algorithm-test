@@ -1,4 +1,4 @@
-package com.algorithm.programmers.level1;
+package com.algorithm.programmers.practice.level1;
 
 import java.io.IOException;
 

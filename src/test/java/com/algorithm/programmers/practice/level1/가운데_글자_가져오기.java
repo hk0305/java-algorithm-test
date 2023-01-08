@@ -1,4 +1,4 @@
-package com.algorithm.programmers.level1;
+package com.algorithm.programmers.practice.level1;
 
 public class 가운데_글자_가져오기 {
     public static void main(String[] args) {

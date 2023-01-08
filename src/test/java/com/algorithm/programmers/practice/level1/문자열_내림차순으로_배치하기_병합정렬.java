@@ -1,4 +1,4 @@
-package com.algorithm.programmers.level1;
+package com.algorithm.programmers.practice.level1;
 
 public class 문자열_내림차순으로_배치하기_병합정렬 {
     public static void main(String[] args) {
